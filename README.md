@@ -1,7 +1,7 @@
 # ClientServerProject
 使用select、poll、epoll实现TCP反射程序
 
-接着上文[IO多路复用（一）-- Select、Poll、Epoll](https://segmentfault.com/a/1190000016400053)，接下来将演示一个TCP回射程序，源代码来自于该博文https://www.cnblogs.com/Anker/p/3258674.html博主的几篇相关的文章，在这里将其进行了整合，突出select、poll和epoll不同方法之间的比较，但是代码的结构相同，为了突出方法之间的差别，可能有的代码改动的并不合理，实际中使用并非这么写。
+接着上文[IO多路复用（一）-- Select、Poll、Epoll](https://segmentfault.com/a/1190000016400053)，接下来将演示一个TCP回射程序，源代码来自于该博文https://www.cnblogs.com/Anker/p/3258674.html 博主的几篇相关的文章，在这里将其进行了整合，突出select、poll和epoll不同方法之间的比较，但是代码的结构相同，为了突出方法之间的差别，可能有的代码改动的并不合理，实际中使用并非这么写。
 
 ## 程序逻辑
 
